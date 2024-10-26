@@ -399,6 +399,47 @@ li .dropdown-mega:before {
         font-weight: 800;
     }
 }
+@media screen and (max-width: 1200px) {
+    #header {
+        padding: 0 20px;
+    }
+
+    nav img {
+        width: 130px;
+    }
+    nav > ul li{
+        display: flex;
+        align-items: center;
+    }
+    nav ul li a{
+        font-size: 14px;
+        padding: 5px ;
+    }
+    nav ul li a + i{
+        color: #1aab52;
+    }
+     nav > ul{
+        gap: 10px;
+     }
+
+    .nav-right {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-right span:nth-child(1),
+    .nav-right span:nth-child(3) {
+        display: inline-block;
+    }
+
+    .nav-right span:nth-child(4) {
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: 800;
+        visibility: hidden;
+    }
+}
 
 
 .page1 {
